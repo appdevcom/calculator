@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/result_tv"
+            android:layout_width="match_parent"
+            android:layout_span="4"
+            android:gravity="right"
+            android:text="0"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            tools:textSize="48sp" />
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:id="@+id/button7"
+            android:onClick="setNumber"
+            android:text="7"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button8"
+            android:onClick="setNumber"
+            android:text="8"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button9"
+            android:onClick="setNumber"
+            android:text="9"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/buttonPlus"
+            android:onClick="setOperation"
+            android:text="+"
+            android:textSize="24sp" />
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:id="@+id/button4"
+            android:onClick="setNumber"
+            android:text="4"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:onClick="setNumber"
+            android:text="5"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:onClick="setNumber"
+            android:text="6"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/buttonMinus"
+            android:onClick="setOperation"
+            android:text="-"
+            android:textSize="24sp" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/button1"
+            android:onClick="setNumber"
+            android:text="1"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:onClick="setNumber"
+            android:text="2"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:onClick="setNumber"
+            android:text="3"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/buttonMultiply"
+            android:onClick="setOperation"
+            android:text="*"
+            android:textSize="24sp" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/button0"
+            android:onClick="setNumber"
+            android:layout_column="1"
+            android:text="0"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/buttonDecimal"
+            android:onClick="setNumber"
+            android:text="."
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/buttonDivide"
+            android:onClick="setOperation"
+            android:text="/"
+            android:textSize="24sp" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/buttonDeleteAll"
+            android:layout_column="1"
+            android:onClick="setDeleteAll"
+            android:text="CA"
+            android:textSize="24sp" />
+
+
+        <Button
+            android:id="@+id/buttonDelete"
+            android:onClick="setDelete"
+            android:text="C"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/buttonEqual"
+            android:onClick="doOperation"
+            android:text="="
+            android:textSize="24sp" />
+    </TableRow>
+
+</TableLayout>
